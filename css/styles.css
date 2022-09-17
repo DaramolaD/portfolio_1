@@ -361,6 +361,10 @@ img {
     flex: 0 0 45%;
     max-width: 45%;
 }
+.about_container strong {
+    color: #64f4ac;
+    opacity: 0.6;
+}
 .title {
     /* color: #fff; */
     color: rgb(145, 140, 140);

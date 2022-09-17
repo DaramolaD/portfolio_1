@@ -549,7 +549,7 @@ input, textarea {
         padding-right: 10px;
     }
     .about_content {
-        padding: 0 30px;
+        /* padding: 0 30px; */
     }
     .social_media .box {
         margin-top: 20px;
@@ -632,6 +632,12 @@ input, textarea {
 @media only screen and (max-width: 818px) and (min-width: 768px) {
     .filter_container .text {
         font-size: .65rem;
+    }
+}
+
+@media only screen and (max-width: 690px) {
+    .filter_container .text {
+        font-size: .8rem !important;
     }
 }
 
